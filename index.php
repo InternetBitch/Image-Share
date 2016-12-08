@@ -1,6 +1,6 @@
 <?php
 // Configuration
-$title = 'Image Uploader';
+$title = 'Image uploader';
 $filedir = 'up';
 $maxsize = 5242880; //max size in bytes
 $allowedExts = array('png', 'jpg', 'jpeg', 'gif');
@@ -21,9 +21,8 @@ $baseurl = $_SERVER['HTTP_HOST'].dirname($_SERVER['REQUEST_URI']).'/'.$filedir;
 		<input type="submit" value="Upload File" />
 		</form>
 		<div id="info">
-		Max file size: 5mb <br/>
 		Supported formats: png, jpg, gif <br/>
-		Please don't upload anything illegal
+		Please don't upload anything that does not abide with our Community guidelines.
 		</div>
 	</div>
 	<div id="image">
